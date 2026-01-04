@@ -9,7 +9,7 @@
 		{ label: "Produtos", href: "#produtos" },
 		// { label: "Onde encontrar", href: "#localizacao" },
 		{ label: "Contato", href: "#contato" },
-		//{ label: "Blog", href: "#blog" },
+		{ label: "Blog", href: "#blog" },
 	];
 
 	const scrollToSection = (href: string) => {
