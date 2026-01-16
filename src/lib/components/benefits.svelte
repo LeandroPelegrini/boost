@@ -1,26 +1,30 @@
 <script lang="ts">
-	import { CheckCircle2Icon } from "@lucide/svelte";
+	import { CheckCircle2Icon } from '@lucide/svelte';
 
 	const benefits = [
 		{
-			title: "MAIS POTÊNCIA",
-			description: "Fórmulas desenvolvidas para maximizar o desempenho.",
+			title: 'MAIS POTÊNCIA',
+			description: 'Fórmulas desenvolvidas para maximizar o desempenho.'
 		},
 		{
-			title: "MENOS CONSUMO",
-			description: "Otimização que resulta em economia.",
+			title: 'MENOS CONSUMO',
+			description: 'Otimização que resulta em economia.'
 		},
 		{
-			title: "FÁCIL APLICAÇÃO",
-			description: "Produtos práticos para uso profissional.",
-		},
+			title: 'FÁCIL APLICAÇÃO',
+			description: 'Produtos práticos para uso profissional.'
+		}
 	];
 </script>
 
 <section class="py-20 bg-card relative overflow-hidden">
 	<!-- Background Image with Overlay -->
 	<div class="absolute inset-0 z-0">
-		<img src="https://images.unsplash.com/photo-1560869365-ad497769c28c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Motor" class="w-full h-full object-cover opacity-20 " />
+		<img
+			src="https://images.unsplash.com/photo-1560869365-ad497769c28c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			alt="Motor"
+			class="w-full h-full object-cover opacity-20"
+		/>
 	</div>
 
 	<div class="container mx-auto px-4 relative z-10">
@@ -30,7 +34,10 @@
 				<br />
 				PRODUTOS
 			</h2>
-			<p class="text-muted-foreground max-w-2xl">A linha de produtos Boost foi feita para quem entende de desempenho.<br>Limpeza, proteção e performance. Cada fórmula foi desenvolvida para entregar resultados reais.</p>
+			<p class="text-muted-foreground max-w-2xl">
+				A linha de produtos Boost foi feita para quem entende de desempenho.<br />Limpeza, proteção
+				e performance. Cada fórmula foi desenvolvida para entregar resultados reais.
+			</p>
 		</div>
 
 		<div class="grid md:grid-cols-3 gap-8">

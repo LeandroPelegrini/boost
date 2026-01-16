@@ -1,10 +1,10 @@
-import { MediaQuery } from "svelte/reactivity";
-import { setContext, getContext } from "svelte";
+import { MediaQuery } from 'svelte/reactivity';
+import { setContext, getContext } from 'svelte';
 
 /** App state class-base management */
 class UseApp {
 	isDarkMode = $state(true);
-	isMobile = $derived(new MediaQuery("max-width: 700px").current);
+	isMobile = $derived(new MediaQuery('max-width: 700px').current);
 
 	// Set default data
 	constructor(props: { [key: string]: any }) {
@@ -12,7 +12,7 @@ class UseApp {
 		Object.assign(this, props);
 		// Add and remove dark class to body whenever `isDarkMode` changes
 		$effect(() => {
-			document.body.classList.toggle("dark", this.isDarkMode);
+			document.body.classList.toggle('dark', this.isDarkMode);
 		});
 	}
 
@@ -21,10 +21,10 @@ class UseApp {
 }
 
 /** Hook props (isDarkMode can be set when setting hook) */
-export type UseAppProps = Pick<InstanceType<typeof UseApp>, "isDarkMode">;
+export type UseAppProps = Pick<InstanceType<typeof UseApp>, 'isDarkMode'>;
 
 /** Set app state */
-export const setApp = (props: UseAppProps) => setContext("appState", new UseApp(props));
+export const setApp = (props: UseAppProps) => setContext('appState', new UseApp(props));
 
 /** Use app state */
-export const useApp = () => getContext<ReturnType<typeof setApp>>("appState");
+export const useApp = () => getContext<ReturnType<typeof setApp>>('appState');
