@@ -5,7 +5,6 @@ excerpt: Cuidar do carro vai muito além de abastecer e dirigir. A manutenção 
 image: /imgs/produtos_boost.webp
 ---
 
-# A importância de fazer a manutenção do carro usando produtos de confiança
 Cuidar do carro vai muito além de abastecer e dirigir. A manutenção preventiva automotiva é um dos fatores mais importantes para garantir segurança, economia e maior vida útil do veículo. E tão importante quanto manter as revisões em dia é usar produtos de qualidade e procedência confiável.
 
 Neste artigo, você vai entender por que a manutenção regular é essencial e como a escolha dos produtos certos faz toda a diferença no desempenho do seu carro.
