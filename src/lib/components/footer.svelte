@@ -8,7 +8,7 @@
 			<!-- Logo -->
 			<a href="/" class="flex items-center gap-2">
 				<div class="text-2xl font-bold text-primary italic">
-					<img src="/imgs/boost-logo.svg" alt="logo Boost" class="max-w-36" />
+					<img src="/imgs/boost-logo.svg" alt="logo Boost" class="max-w-36" fetchpriority="high" />
 				</div>
 			</a>
 

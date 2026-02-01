@@ -23,7 +23,7 @@
 
 	<!-- Content -->
 	<div class="relative z-10 container mx-auto px-4 text-center">
-		<img src="/imgs/boost-logo.svg" alt="Logo Boost" class="mx-auto pb-8 h-auto max-h-40" />
+		<img src="/imgs/boost-logo.svg" alt="Logo Boost" class="mx-auto pb-8 h-auto max-h-40" fetchpriority="high">
 		<h1 class="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">A ESCOLHA SEGURA</h1>
 		<p class="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
 			Soluções automotivas práticas e eficientes.
