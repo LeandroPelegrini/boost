@@ -38,6 +38,7 @@
 		WithElementRef<HTMLAnchorAttributes> & {
 			variant?: ButtonVariant;
 			size?: ButtonSize;
+			asChild?: boolean;
 		};
 </script>
 
@@ -51,6 +52,7 @@
 		type = 'button',
 		disabled,
 		children,
+		asChild = false,
 		...restProps
 	}: ButtonProps = $props();
 </script>
@@ -68,6 +70,16 @@
 	>
 		{@render children?.()}
 	</a>
+{:else if asChild}
+	<span
+		bind:this={ref}
+		data-slot="button"
+		class={cn(buttonVariants({ variant, size }), className)}
+		aria-disabled={disabled}
+		{...restProps as Record<string, unknown>}
+	>
+		{@render children?.()}
+	</span>
 {:else}
 	<button
 		bind:this={ref}

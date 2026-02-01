@@ -18,14 +18,14 @@
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 		{#each data.posts as post}
 			<Card
-				class="flex flex-col h-full overflow-hidden hover:shadow-lg transition-shadow duration-300"
+				class="flex flex-col h-full overflow-hidden hover:shadow-lg transition-shadow duration-300 pt-1 px-1"
 			>
 				{#if post.image}
-					<div class="w-full h-52 overflow-hidden bg-muted">
+					<div class="w-full h-52 overflow-hidden rounded-xl hover:rounded-xl">
 						<img
 							src={post.image}
 							alt={post.title}
-							class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+							class="w-full h-full object-cover transition-transform duration-500 hover:scale-105 hover:rounded-xl"
 						/>
 					</div>
 				{/if}
@@ -41,7 +41,7 @@
 						<a href="/blog/{post.slug}">{post.title}</a>
 					</CardTitle>
 				</CardHeader>
-				<CardContent class="flex-grow">
+				<CardContent class="grow">
 					<p class="text-muted-foreground line-clamp-3">
 						{post.excerpt}
 					</p>

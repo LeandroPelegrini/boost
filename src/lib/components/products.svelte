@@ -93,9 +93,9 @@
 							<CardDescription>{product.description}</CardDescription>
 						</CardHeader>
 						<CardFooter>
-							<AlertDialog.Trigger
-								><Button variant="outline" class="w-full">Saiba mais</Button></AlertDialog.Trigger
-							>
+							<AlertDialog.Trigger asChild>
+								<Button variant="outline" class="w-full">Saiba mais</Button>
+							</AlertDialog.Trigger>
 						</CardFooter>
 					</Card>
 					<AlertDialog.Content>
