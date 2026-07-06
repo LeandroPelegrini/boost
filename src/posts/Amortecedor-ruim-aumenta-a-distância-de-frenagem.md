@@ -14,14 +14,14 @@ Por isso, manter a manutenção preventiva do carro em dia é essencial para gar
 
 ## Como o amortecedor influencia na frenagem do carro
 
-O amortecedor faz parte do sistema de suspensão e tem a função de controlar os movimentos da carroceria e manter as rodas em contato constante com o solo. Esse contato é fundamental para que os pneus tenham aderência suficiente ao asfalto. ([AutoPapo](https://autopapo.com.br/blog-do-boris/amortecedor-carro-freio))
+O amortecedor faz parte do sistema de suspensão e tem a função de controlar os movimentos da carroceria e manter as rodas em contato constante com o solo. Esse contato é fundamental para que os pneus tenham aderência suficiente ao asfalto. ([AutoPapo](https://autopapo.com.br/blog-do-boris/amortecedor-carro-freio/?utm_source=chatgpt.com))
 
-Quando o amortecedor está desgastado, o carro pode apresentar oscilações maiores. Isso faz com que as rodas percam parte do contato com o chão durante a frenagem, reduzindo a eficiência do sistema de freios. ([AutoPapo](https://autopapo.com.br/blog-do-boris/amortecedor-carro-freio))
+Quando o amortecedor está desgastado, o carro pode apresentar oscilações maiores. Isso faz com que as rodas percam parte do contato com o chão durante a frenagem, reduzindo a eficiência do sistema de freios. ([AutoPapo](https://autopapo.com.br/blog-do-boris/amortecedor-carro-freio/?utm_source=chatgpt.com))
 
 O resultado é simples:  
 quanto menor a aderência do pneu ao solo, maior será a distância necessária para parar o veículo.
 
-Estudos do setor automotivo mostram que amortecedores desgastados podem aumentar a distância de frenagem em até 20%, dependendo das condições do veículo e da estrada. ([Dana Brasil](https://dana.com.br/entenda-como-os-amortecedores-interferem-na-frenagem-do-veiculo))
+Estudos do setor automotivo mostram que amortecedores desgastados podem aumentar a distância de frenagem em até 20%, dependendo das condições do veículo e da estrada. ([Dana Brasil](https://dana.com.br/entenda-como-os-amortecedores-interferem-na-frenagem-do-veiculo/?utm_source=chatgpt.com))
 
 Em situações de emergência, essa diferença pode ser decisiva para evitar — ou causar — um acidente.
 
