@@ -93,8 +93,10 @@
 							<CardDescription>{product.description}</CardDescription>
 						</CardHeader>
 						<CardFooter>
-							<AlertDialog.Trigger asChild>
-								<Button variant="outline" class="w-full">Saiba mais</Button>
+							<AlertDialog.Trigger>
+								{#snippet child({ props })}
+									<Button {...props} variant="outline" class="w-full">Saiba mais</Button>
+								{/snippet}
 							</AlertDialog.Trigger>
 						</CardFooter>
 					</Card>
